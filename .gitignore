@@ -12,7 +12,3 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
-
-# Exclude Paragon
-Content/ParagonGreystone/
-Content/ParagonGrux/
