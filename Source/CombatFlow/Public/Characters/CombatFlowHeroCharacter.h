@@ -6,8 +6,10 @@
 #include "CombatFlowBaseCharacter.h"
 #include "CombatFlowHeroCharacter.generated.h"
 
+class UDataAsset_InputConfig;
 class USpringArmComponent;
 class UCameraComponent;
+struct FInputActionValue;
 
 UCLASS()
 class COMBATFLOW_API ACombatFlowHeroCharacter : public ACombatFlowBaseCharacter
@@ -17,13 +19,27 @@ public:
 	ACombatFlowHeroCharacter();
 
 protected:
+	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void BeginPlay() override;
-
 private:
+
+#pragma region Components
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<USpringArmComponent> CameraBoom;
 
-	UPROPERTY(visibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<UCameraComponent> FollowCamera;
 	
+	#pragma endregion
+
+#pragma region Inputs
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = CharacterData, meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<UDataAsset_InputConfig> InputConfigDataAsset;
+
+	void Input_Move(const FInputActionValue& InputActionValue);
+	void Input_Look(const FInputActionValue& InputActionValue);
+	
+	#pragma endregion
 };

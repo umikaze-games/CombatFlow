@@ -24,7 +24,6 @@ template <class UserObject, typename CallbackFunc>
 void UCombatFlowInputComponent::BindNativeInputAction(const UDataAsset_InputConfig* InInputConfig,
 	const FGameplayTag& InInputTag, ETriggerEvent TriggerEvent, UserObject* ContextObject, CallbackFunc Func)
 {
-	//check(InInputConfig);
 	checkf(InInputConfig,TEXT("Input Config data asset is null, can not proceed with binding"));
 	if (UInputAction* FoundAction=InInputConfig->FindNativeInputActionsByTag(InInputTag))
 	{

@@ -14,11 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc4864d-2763-416f-9a44-b43ce163d42a" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CombatFlow.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/CombatFlow.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GameModes/BP_BaseGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameModes/BP_BaseGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Maps/ThirdPersonMap.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/DataAssets/Input/DataAsset_InputConfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/DataAssets/Input/DataAsset_InputConfig.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/DataAssets/Input/DataAsset_InputConfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/DataAssets/Input/DataAsset_InputConfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/BP_CombatFlowCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/BP_CombatFlowCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowHeroCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowHeroCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Components/Input/CombatFlowInputComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Components/Input/CombatFlowInputComponent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +33,18 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://5" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://10" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Plugins/EnhancedInput/Intermediate/Build/Win64/UnrealEditor/Inc/EnhancedInput/UHT/InputActionValue.generated.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h.inl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/Components/CharacterMovementComponent.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -187,7 +196,8 @@
       <workItem from="1757046440390" duration="2567000" />
       <workItem from="1757075623703" duration="3865000" />
       <workItem from="1757134447452" duration="13782000" />
-      <workItem from="1757208383719" duration="6952000" />
+      <workItem from="1757208383719" duration="7436000" />
+      <workItem from="1757224507231" duration="4350000" />
     </task>
     <servers />
   </component>
