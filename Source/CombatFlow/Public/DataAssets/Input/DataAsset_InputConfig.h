@@ -33,5 +33,5 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly,meta=(TitleProperty="InputTag"))
 	TArray<FCombatFlowInputConfig>NativeInputActions;
 
-	UInputAction* FindNativeInputActionsByTag(const FGameplayTag& InInputTag);
+	UInputAction* FindNativeInputActionsByTag(const FGameplayTag& InInputTag) const;
 };
