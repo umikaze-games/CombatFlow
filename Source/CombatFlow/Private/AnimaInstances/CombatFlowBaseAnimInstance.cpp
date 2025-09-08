@@ -3,3 +3,4 @@
 
 #include "AnimaInstances/CombatFlowBaseAnimInstance.h"
 
+#include "Characters/CombatFlowHeroCharacter.h"
