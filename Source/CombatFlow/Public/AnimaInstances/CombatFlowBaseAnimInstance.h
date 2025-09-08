@@ -9,9 +9,11 @@
 /**
  * 
  */
+class ACombatFlowHeroCharacter;
 UCLASS()
 class COMBATFLOW_API UCombatFlowBaseAnimInstance : public UAnimInstance
 {
 	GENERATED_BODY()
-	
+
+
 };

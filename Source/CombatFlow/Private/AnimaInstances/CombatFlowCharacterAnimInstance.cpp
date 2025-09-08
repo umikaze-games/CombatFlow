@@ -13,6 +13,8 @@ void UCombatFlowCharacterAnimInstance::NativeInitializeAnimation()
 	{
 		OwningMovementComponent=OwningCharacter->GetCharacterMovement();
 	}
+	Super::NativeInitializeAnimation();
+	
 }
 
 void UCombatFlowCharacterAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaSeconds)
