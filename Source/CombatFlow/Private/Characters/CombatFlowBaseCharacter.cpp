@@ -2,7 +2,6 @@
 
 
 #include "Characters/CombatFlowBaseCharacter.h"
-
 #include "AbilitySystem/CombatFlowAbilitySystemComponent.h"
 #include "AbilitySystem/CombatFlowAttributeSet.h"
 
