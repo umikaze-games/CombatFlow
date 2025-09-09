@@ -14,7 +14,8 @@ public class CombatFlow : ModuleRules
 			"Engine", 
 			"InputCore", 
 			"EnhancedInput",
-			"GameplayTags"
+			"GameplayTags",
+			"GameplayTasks"
 		});
 	}
 }

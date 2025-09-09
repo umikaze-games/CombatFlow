@@ -7,19 +7,15 @@
 
 void UCombatFlowCharacterAnimInstance::NativeInitializeAnimation()
 {
-	//Super::NativeInitializeAnimation();
 	OwningCharacter=Cast<ACombatFlowBaseCharacter>(TryGetPawnOwner());
 	if (OwningCharacter)
 	{
 		OwningMovementComponent=OwningCharacter->GetCharacterMovement();
 	}
-	Super::NativeInitializeAnimation();
-	
 }
 
 void UCombatFlowCharacterAnimInstance::NativeThreadSafeUpdateAnimation(float DeltaSeconds)
 {
-	//Super::NativeThreadSafeUpdateAnimation(DeltaSeconds);
 	if (!OwningCharacter||!OwningMovementComponent)	return;
 	GroundSpeed= OwningCharacter->GetVelocity().Size2D();
 	bHasAcceleration= OwningMovementComponent->GetCurrentAcceleration().SizeSquared2D()>0.f;

@@ -6,6 +6,7 @@
 #include "CombatFlowGameplayTags.h"
 #include "EnhancedInputSubsystemInterface.h"
 #include "EnhancedInputSubsystems.h"
+#include "AbilitySystem/CombatFlowAbilitySystemComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/Input/CombatFlowInputComponent.h"
@@ -35,6 +36,19 @@ ACombatFlowHeroCharacter::ACombatFlowHeroCharacter()
 	GetCharacterMovement()->MaxWalkSpeed=400.f;
 	GetCharacterMovement()->BrakingDecelerationWalking=2000.f;
 	
+}
+
+void ACombatFlowHeroCharacter::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+	if (CombatFlowAbilitySystemComponent&&CombatFlowAttributeSet)
+	{
+		const FString ASCText=FString::Printf(TEXT("Owner Actor:%s,AvatarActor:%s"),
+			*CombatFlowAbilitySystemComponent->GetOwnerActor()->GetActorLabel(),
+			*CombatFlowAbilitySystemComponent->GetAvatarActor()->GetActorLabel());
+		Debug::Print(TEXT("Ability system Component vaild")+ASCText,FColor::Green);
+		Debug::Print(TEXT("Attribute valid")+ASCText,FColor::Green);
+	}
 }
 
 // Called when the game starts or when spawned
