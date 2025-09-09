@@ -14,11 +14,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc4864d-2763-416f-9a44-b43ce163d42a" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/AnimaInstances/CombatFlowBaseAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/AnimaInstances/CombatFlowBaseAnimInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CombatFlow.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/CombatFlow.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/CombatFlow.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/CombatFlow.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/AnimaInstances/CombatFlowCharacterAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/AnimaInstances/CombatFlowCharacterAnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/AnimaInstances/Hero/FlowCharacterHeroAnimInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/AnimaInstances/Hero/FlowCharacterHeroAnimInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/AnimaInstances/CombatFlowBaseAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/AnimaInstances/CombatFlowBaseAnimInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/AnimaInstances/Hero/FlowCharacterHeroAnimInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/AnimaInstances/Hero/FlowCharacterHeroAnimInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowBaseCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowBaseCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowHeroCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowBaseCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowBaseCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowHeroCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +34,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://3" root0="FORCE_HIGHLIGHTING" />
-    <setting file="cidr-memory-view://5" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/CharacterMovementComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/Components/CharacterMovementComponent.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Private/UnrealEngine.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/CombatFlow/Private/AbilitySystem/CombatFlowAbilitySystemComponent.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/CombatFlow/Private/GameModes/CombatFlowBaseGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/CombatFlow/Public/AbilitySystem/CombatFlowAbilitySystemComponent.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/CombatFlow/Public/GameModes/CombatFlowBaseGameMode.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -190,6 +193,10 @@
       <workItem from="1757208383719" duration="6952000" />
       <workItem from="1757229013304" duration="3386000" />
       <workItem from="1757288843979" duration="8309000" />
+      <workItem from="1757380024079" duration="1506000" />
+      <workItem from="1757381620122" duration="54000" />
+      <workItem from="1757381731722" duration="1300000" />
+      <workItem from="1757383252178" duration="3575000" />
     </task>
     <servers />
   </component>

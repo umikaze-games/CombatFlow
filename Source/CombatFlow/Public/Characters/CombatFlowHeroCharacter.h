@@ -19,8 +19,13 @@ public:
 	ACombatFlowHeroCharacter();
 
 protected:
+	//~Begin Apawn Interface.
+	virtual void PossessedBy(AController* NewController)override;
+	//~End Apawn Interface.
+	
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	virtual void BeginPlay() override;
+	
 private:
 
 #pragma region Components
