@@ -17,5 +17,12 @@ public class CombatFlow : ModuleRules
 			"GameplayTags",
 			"GameplayTasks"
 		});
+		
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"GameplayTags",
+			"GameplayAbilities",
+			"GameplayTasks",
+		});
 	}
 }

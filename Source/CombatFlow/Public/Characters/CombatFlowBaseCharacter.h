@@ -5,10 +5,13 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "AbilitySystemInterface.h"
+#include "AbilitySystem/CombatFlowAbilitySystemComponent.h"
+#include "AbilitySystem/CombatFlowAttributeSet.h"
 #include "CombatFlowBaseCharacter.generated.h"
 
 class UCombatFlowAbilitySystemComponent;
 class UCombatFlowAttributeSet;
+
 UCLASS()
 class COMBATFLOW_API ACombatFlowBaseCharacter : public ACharacter ,public IAbilitySystemInterface
 {
