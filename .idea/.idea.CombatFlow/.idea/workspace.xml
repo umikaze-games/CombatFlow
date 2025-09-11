@@ -14,123 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc4864d-2763-416f-9a44-b43ce163d42a" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_CharM_Barbarous.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_CharM_Barbarous.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_Hero.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/HeroCharacter/SK_Hero.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Manny.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/ABP_Quinn.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Jump.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_T_Pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Manny/MM_Walk_InPlace.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Quinn/BS_MF_Unarmed_WalkRun.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Quinn/MF_Idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Functions/CA_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Functions/ChromaticCurve.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Functions/MF_Diffraction.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Functions/MF_logo3layers.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Functions/ML_BaseColorFallOff.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_01.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Instances/Manny/MI_Manny_02.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/Instances/Quinn/MI_Quinn_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Materials/M_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Quinn.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Quinn.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/ABP_Manny_PostProcess.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/ABP_Quinn_PostProcess.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_pose.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_ASAOPMASK_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_CCRCCPlastic_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MSR_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_Tan.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_BN.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_MSR_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01ID_Tan.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_ASAOMASK_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_CCRCCPlastic_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_BN.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_MSR_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02ID_Tan.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_ASAOMASK_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_CCRCCPlastic_MSK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroWeaponBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/PlayerCharacter/HeroWeapon/BP_HeroWeaponBase.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://2" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
@@ -313,6 +196,7 @@
       <workItem from="1757477733449" duration="3129000" />
       <workItem from="1757482699816" duration="2001000" />
       <workItem from="1757495224310" duration="6624000" />
+      <workItem from="1757556428640" duration="3347000" />
     </task>
     <servers />
   </component>
