@@ -11,6 +11,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/Input/CombatFlowInputComponent.h"
 #include "DataAssets/Input/DataAsset_InputConfig.h"
+#include "DataAssets/StartUpData/DataAsset_StartUpDataBase.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 
@@ -41,13 +42,12 @@ ACombatFlowHeroCharacter::ACombatFlowHeroCharacter()
 void ACombatFlowHeroCharacter::PossessedBy(AController* NewController)
 {
 	Super::PossessedBy(NewController);
-	if (CombatFlowAbilitySystemComponent&&CombatFlowAttributeSet)
+	if (!CharacterStartUpData.IsNull())
 	{
-		const FString ASCText=FString::Printf(TEXT("Owner Actor:%s,AvatarActor:%s"),
-			*CombatFlowAbilitySystemComponent->GetOwnerActor()->GetActorLabel(),
-			*CombatFlowAbilitySystemComponent->GetAvatarActor()->GetActorLabel());
-		Debug::Print(TEXT("Ability system Component vaild")+ASCText,FColor::Green);
-		Debug::Print(TEXT("Attribute valid")+ASCText,FColor::Green);
+		if (UDataAsset_StartUpDataBase* LoadData=CharacterStartUpData.LoadSynchronous())
+		{
+			LoadData->GiveToAbilitySystemComponent(CombatFlowAbilitySystemComponent);
+		}
 	}
 }
 

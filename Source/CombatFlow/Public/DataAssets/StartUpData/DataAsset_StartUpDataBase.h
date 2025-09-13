@@ -17,7 +17,7 @@ class COMBATFLOW_API UDataAsset_StartUpDataBase : public UDataAsset
 {
 	GENERATED_BODY()
 public:
-	virtual  void GiveToAbilitySystemComponent(UCombatFlowAbilitySystemComponent* InCombatFlowASCToGive,int32 ApplyLevel=1);
+	virtual  void GiveToAbilitySystemComponent(UCombatFlowAbilitySystemComponent* InASCToGive,int32 ApplyLevel=1);
 	
 protected:
 	UPROPERTY(EditDefaultsOnly,Category="StartUpData")
@@ -26,5 +26,5 @@ protected:
 	UPROPERTY(EditDefaultsOnly,Category="StartUpData")
 	TArray<TSubclassOf<UCombatFlowGameplayAbility>>ReactiveAbiliies;
 
-	void GrantAbilities(const TArray<TSubclassOf<UCombatFlowGameplayAbility>>& InAbilitiesToGive,UCombatFlowAbilitySystemComponent* InCombatFlowASCToGive,int32 ApplyLevel=1);
+	void GrantAbilities(const TArray<TSubclassOf<UCombatFlowGameplayAbility>>& InAbilitiesToGive,UCombatFlowAbilitySystemComponent* InASCToGive,int32 ApplyLevel=1);
 };

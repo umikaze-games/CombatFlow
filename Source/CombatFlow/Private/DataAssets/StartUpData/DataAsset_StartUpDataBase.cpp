@@ -6,17 +6,17 @@
 #include "AbilitySystem/CombatFlowAbilitySystemComponent.h"
 #include "AbilitySystem/Abilities/CombatFlowGameplayAbility.h"
 
-void UDataAsset_StartUpDataBase::GiveToAbilitySystemComponent(UCombatFlowAbilitySystemComponent* InCombatFlowASCToGive,
+void UDataAsset_StartUpDataBase::GiveToAbilitySystemComponent(UCombatFlowAbilitySystemComponent* InASCToGive,
                                                               int32 ApplyLevel)
 {
-	check(InCombatFlowASCToGive);
-	GrantAbilities(ActivateOnGivenAbiliies,InCombatFlowASCToGive,ApplyLevel);
-	GrantAbilities(ReactiveAbiliies,InCombatFlowASCToGive,ApplyLevel);
+	check(InASCToGive);
+	GrantAbilities(ActivateOnGivenAbiliies,InASCToGive,ApplyLevel);
+	GrantAbilities(ReactiveAbiliies,InASCToGive,ApplyLevel);
 }
 
 void UDataAsset_StartUpDataBase::GrantAbilities(
 	const TArray<TSubclassOf<UCombatFlowGameplayAbility>>& InAbilitiesToGive,
-	UCombatFlowAbilitySystemComponent* InCombatFlowASCToGive, int32 ApplyLevel)
+	UCombatFlowAbilitySystemComponent* InASCToGive, int32 ApplyLevel)
 {
 	if (InAbilitiesToGive.IsEmpty())
 	{
@@ -26,8 +26,8 @@ void UDataAsset_StartUpDataBase::GrantAbilities(
 	{
 		if (!Ability)continue;
 		FGameplayAbilitySpec AbilitySpec(Ability);
-		AbilitySpec.SourceObject = InCombatFlowASCToGive->GetAvatarActor();
+		AbilitySpec.SourceObject = InASCToGive->GetAvatarActor();
 		AbilitySpec.Level = ApplyLevel;
-		InCombatFlowASCToGive->GiveAbility(AbilitySpec);
+		InASCToGive->GiveAbility(AbilitySpec);
 	}
 }

@@ -16,7 +16,7 @@ ACombatFlowBaseCharacter::ACombatFlowBaseCharacter()
 	CombatFlowAttributeSet=CreateDefaultSubobject<UCombatFlowAttributeSet>(TEXT("CombatFlowAttributeSet"));
 }
 
-UAbilitySystemComponent* ACombatFlowBaseCharacter::GetAbilitySystemComponent() const
+UAbilitySystemComponent* ACombatFlowBaseCharacter::GetAbilitySystemComponent() const 
 {
 	return GetCombatFlowAbilitySystemComponent();
 }
@@ -27,6 +27,7 @@ void ACombatFlowBaseCharacter::PossessedBy(AController* NewController)
 	if (CombatFlowAbilitySystemComponent)
 	{
 		CombatFlowAbilitySystemComponent->InitAbilityActorInfo(this,this);
+		ensureMsgf(!CharacterStartUpData.IsNull(),TEXT("Forget to assign start up data to %s"),*GetName());
 	}
 }
 
