@@ -18,7 +18,11 @@ class COMBATFLOW_API UCombatFlowInputComponent : public UEnhancedInputComponent
 public:
 	
 	template<class UserObject,typename CallbackFunc>
-	void BindNativeInputAction(const UDataAsset_InputConfig* InInputConfig,const FGameplayTag& InInputTag,ETriggerEvent TriggerEvent,UserObject* ContextObject,CallbackFunc Func);
+	void BindNativeInputAction(const UDataAsset_InputConfig* InInputConfig,
+		const FGameplayTag& InInputTag,
+		ETriggerEvent TriggerEvent,
+		UserObject* ContextObject,
+		CallbackFunc Func);
 };
 
 template <class UserObject, typename CallbackFunc>

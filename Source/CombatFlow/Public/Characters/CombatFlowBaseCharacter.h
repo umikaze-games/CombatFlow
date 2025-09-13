@@ -9,6 +9,7 @@
 #include "AbilitySystem/CombatFlowAttributeSet.h"
 #include "CombatFlowBaseCharacter.generated.h"
 
+class UDataAsset_StartUpDataBase;
 class UCombatFlowAbilitySystemComponent;
 class UCombatFlowAttributeSet;
 
@@ -22,7 +23,7 @@ public:
 	ACombatFlowBaseCharacter();
 
 	//~Begin IAbilitySystemInterface Interface.
-	virtual UAbilitySystemComponent* GetAbilitySystemComponent()const;
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent()const override;
 	//~End IAbilitySystemInterface Interface.
 	
 	protected:
@@ -36,6 +37,9 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
 	TObjectPtr<UCombatFlowAttributeSet>CombatFlowAttributeSet;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "CharacterData")
+	TSoftObjectPtr<UDataAsset_StartUpDataBase>CharacterStartUpData;
+	
 public:
 	FORCEINLINE UCombatFlowAbilitySystemComponent* GetCombatFlowAbilitySystemComponent()const{return CombatFlowAbilitySystemComponent;}
 
