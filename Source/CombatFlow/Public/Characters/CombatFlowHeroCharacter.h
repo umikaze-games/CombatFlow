@@ -6,6 +6,7 @@
 #include "CombatFlowBaseCharacter.h"
 #include "CombatFlowHeroCharacter.generated.h"
 
+class UHeroCombatComponent;
 class UDataAsset_InputConfig;
 class USpringArmComponent;
 class UCameraComponent;
@@ -35,6 +36,9 @@ private:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	TObjectPtr<UCameraComponent> FollowCamera;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Combat, meta = (AllowPrivateAccess = "true"))
+	TObjectPtr<UHeroCombatComponent>HeroCombatComponent;
 	
 	#pragma endregion
 
@@ -47,4 +51,7 @@ private:
 	void Input_Look(const FInputActionValue& InputActionValue);
 	
 	#pragma endregion
+
+	public:
+	FORCEINLINE UHeroCombatComponent*  GetHeroCombatComponent()const{return HeroCombatComponent;}
 };
