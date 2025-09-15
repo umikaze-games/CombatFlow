@@ -9,6 +9,7 @@
 #include "AbilitySystem/CombatFlowAbilitySystemComponent.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/Combat/HeroCombatComponent.h"
 #include "Components/Input/CombatFlowInputComponent.h"
 #include "DataAssets/Input/DataAsset_InputConfig.h"
 #include "DataAssets/StartUpData/DataAsset_StartUpDataBase.h"
@@ -36,6 +37,8 @@ ACombatFlowHeroCharacter::ACombatFlowHeroCharacter()
 	GetCharacterMovement()->RotationRate=FRotator(0.f,500.f,0.f);
 	GetCharacterMovement()->MaxWalkSpeed=400.f;
 	GetCharacterMovement()->BrakingDecelerationWalking=2000.f;
+
+	HeroCombatComponent= CreateDefaultSubobject<UHeroCombatComponent>(TEXT("HeroCombatComponent"));
 	
 }
 
