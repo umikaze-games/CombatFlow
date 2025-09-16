@@ -6,6 +6,8 @@
 #include "Abilities/GameplayAbility.h"
 #include "CombatFlowGameplayAbility.generated.h"
 
+class UPawnCombatComponent;
+
 UENUM(BlueprintType)
 enum class ECombatFlowAbilityActivationPolicy : uint8
 {
@@ -29,4 +31,7 @@ class COMBATFLOW_API UCombatFlowGameplayAbility : public UGameplayAbility
 	
 	UPROPERTY(EditDefaultsOnly,Category="CombatFlowAbility")
 	ECombatFlowAbilityActivationPolicy AbilityActivationPolicy=ECombatFlowAbilityActivationPolicy::OnTriggered;
+
+	UFUNCTION(BlueprintPure,Category="CombatFlow|Ability")
+	UPawnCombatComponent* GetPawnCombatComponentFromActorInfo()const;
 };

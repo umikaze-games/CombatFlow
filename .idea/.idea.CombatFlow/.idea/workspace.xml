@@ -14,8 +14,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc4864d-2763-416f-9a44-b43ce163d42a" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CombatFlow/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowHeroCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/Characters/CombatFlowHeroCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowHeroCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Characters/CombatFlowHeroCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Shared/GameplayAbility/GA_Shared_SpawnWeapon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/AbilitySystem/Abilities/CombatFlowGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/AbilitySystem/Abilities/CombatFlowGameplayAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/CombatFlowGameplayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/CombatFlowGameplayTags.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Private/Components/Combat/PawnCombatComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Private/Components/Combat/PawnCombatComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/AbilitySystem/Abilities/CombatFlowGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/AbilitySystem/Abilities/CombatFlowGameplayAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/CombatFlowGameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/CombatFlowGameplayTags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Components/Combat/PawnCombatComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Components/Combat/PawnCombatComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/CombatFlow/Public/Components/PawnExtensionComponentBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/CombatFlow/Public/Components/PawnExtensionComponentBase.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="cidr-memory-view://1" root0="FORCE_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/ObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../Program Files/Epic Games/UE_5.5/Engine/Source/Runtime/CoreUObject/Public/UObject/SoftObjectPtr.h" root0="FORCE_HIGHLIGHTING" />
@@ -57,22 +63,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C/C++ 项目.CombatFlow.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Home",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C/C++ 项目.CombatFlow.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Home&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="C/C++ 项目.CombatFlow">
     <configuration name="CombatFlow" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -210,7 +216,8 @@
       <workItem from="1757725580159" duration="21155000" />
       <workItem from="1757764787471" duration="3865000" />
       <workItem from="1757818579645" duration="5194000" />
-      <workItem from="1757910383989" duration="6239000" />
+      <workItem from="1757910383989" duration="12700000" />
+      <workItem from="1757984932739" duration="4522000" />
     </task>
     <servers />
   </component>

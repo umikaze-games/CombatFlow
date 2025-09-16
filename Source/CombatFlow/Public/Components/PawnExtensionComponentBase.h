@@ -24,6 +24,7 @@ APawn* GetOwningPawn() const
 	{
 		return GetOwningPawn<APawn>();
 	}
+
 	template<class T>
 	T* GetOwningController() const
 	{

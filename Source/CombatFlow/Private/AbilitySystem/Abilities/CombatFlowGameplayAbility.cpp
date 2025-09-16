@@ -4,6 +4,7 @@
 #include "AbilitySystem/Abilities/CombatFlowGameplayAbility.h"
 
 #include "AbilitySystemComponent.h"
+#include "Components/Combat/PawnCombatComponent.h"
 
 void UCombatFlowGameplayAbility::OnGiveAbility(const FGameplayAbilityActorInfo* ActorInfo,
                                                const FGameplayAbilitySpec& Spec)
@@ -30,4 +31,9 @@ void UCombatFlowGameplayAbility::EndAbility(const FGameplayAbilitySpecHandle Han
 			ActorInfo->AbilitySystemComponent->ClearAbility(Handle);
 		}
 	}
+}
+
+UPawnCombatComponent* UCombatFlowGameplayAbility::GetPawnCombatComponentFromActorInfo() const
+{
+	return GetAvatarActorFromActorInfo()->FindComponentByClass<UPawnCombatComponent>();
 }
